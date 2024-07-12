@@ -1,8 +1,23 @@
 # YAPoco
-Full pocket colour PCB using the original parts
+Full pocket colour PCB using the original parts. This board is made with modern screen kits in mind meaning it does not have the voltage rails for the original screen.
 
+! I am not responsible if you have skill issues !
+
+[interactive BOM](https://nataliethenerd.github.io/yap.html)
+
+You can support me on Ko-Fi or by buying the board directly from me [my store](https://nataliethenerd.com/collections/all)
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/L4L12T33R)
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+
+### Follow me!
+[Twitter](https://twitter.com/natalie_thenerd)
+
+[Instagram](https://www.instagram.com/natalie.thenerd/)
+
+[Modded Gameboy Club](https://moddedgameboy.club/) - a club dedicated to the modification of Game Boys, freely sharing resources
+
 
 ### CC BY-SA 4.0 Summary
 
