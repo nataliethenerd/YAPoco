@@ -23,6 +23,9 @@ This board uses all the parts of an original Game Boy Color minus the IR and ori
 
 The thumbwheel circuit can be connected to an OSD screen to control brightness. The two touch pad wires and be conneced to the pads labelled ↑↓ on the back top left side of the board. The select, A and B pads are easy connection pads for the screen also. 
 
+![screenguide](https://github.com/user-attachments/assets/6a41b447-ce38-4705-a97f-1373933af0ef)
+
+
 **My recommendations** 
 
 - New power regulator like my [Safer Charge DC](https://nataliethenerd.com/products/safer-charge-dc)
