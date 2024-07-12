@@ -13,6 +13,9 @@ I also occasionally sell pre built PCBs on my store.
 
 ### Building
 
+![boardview](https://github.com/user-attachments/assets/57423323-dd4f-4246-84e5-625e1ff1f266)
+
+
 > [!WARNING]
 > I am not responsible for your skill issues!
 
