@@ -1,5 +1,11 @@
 # YAPoco
 Full pocket colour PCB using the original parts. This board is made with modern screen kits in mind meaning it does not have the voltage rails for the original screen.
+![IMG_3233](https://github.com/user-attachments/assets/1467b565-ee4c-46fc-b0bd-95ebfb62f689)
+
+
+![YAPoco1](https://github.com/user-attachments/assets/4cdcea67-c77e-4cb7-a0c8-6f806ef4506c)
+![YAPoco](https://github.com/user-attachments/assets/493d8cf7-cbae-4ae9-a6ef-e9d19b687a4c)
+
 
 ! I am not responsible if you have skill issues !
 
