@@ -38,20 +38,14 @@ The thumbwheel circuit can be connected to an OSD screen to control brightness. 
 
 If you are into Game Boy modding or retro gaming, please consider using code "NatalieTheNerd" at:
 
-• [Retro Modding](http://RetroModding.com)
-• [Retro Game Repair Shop](http://RetroGameRepairShop.com)
-• [Extreme Rate](http://ExtremeRate.com)
+• [Retro Modding] (http://RetroModding.com)•[Retro Game Repair Shop] (http://RetroGameRepairShop.com)•[Extreme Rate] (http://ExtremeRate.com)
 
 My socials
 
-[Twitter](https://twitter.com/natalie_thenerd)
-
-[Instagram](https://www.instagram.com/natalie.thenerd/)
-
-[Modded Gameboy Club](https://moddedgameboy.club/) - a club dedicated to the modification of Game Boys, freely sharing resources
+[Twitter] (https://twitter.com/natalie_thenerd)•[Instagram] (https://www.instagram.com/natalie.thenerd/)•[Modded Gameboy Club] (https://moddedgameboy.club/) - a club dedicated to the modification of Game Boys, freely sharing resources
 
 
-### License
+## License
 
 Please do not remove my logo, website and name.
 
