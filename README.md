@@ -1,18 +1,49 @@
-# YAPoco
-Full pocket colour PCB using the original parts. This board is made with modern screen kits in mind meaning it does not have the voltage rails for the original screen.
+# Yet Another Poco
 ![IMG_3233](https://github.com/user-attachments/assets/1467b565-ee4c-46fc-b0bd-95ebfb62f689)
 
-! I am not responsible if you have skill issues !
+Poco = Pocket Color. This project allows you to put a Game Boy Color in a Game Boy pocket shell. Full pocket colour PCB using the original parts. This board is made with modern screen kits in mind meaning it does not have the voltage rails for the original screen.
 
-[interactive BOM](https://nataliethenerd.github.io/yap.html)
 
 You can support me on Ko-Fi or by buying the board directly from me [my store](https://nataliethenerd.com/collections/all)
 
+I also occasionally sell pre built PCBs on my store.
+
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/L4L12T33R)
 
-[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-### Follow me!
+### Building
+
+> [!WARNING]
+> I am not responsible for your skill issues!
+
+This board uses all the parts of an original Game Boy Color minus the IR and original screen circuit. Most parts are in the same spot, however if you are having trouble you can check the [interactive BOM](https://nataliethenerd.github.io/yap.html)
+
+The thumbwheel circuit can be connected to an OSD screen to control brightness. The two touch pad wires and be conneced to the pads labelled ↑↓ on the back top left side of the board. The select, A and B pads are easy connection pads for the screen also. 
+
+**My recommendations** 
+
+- New power regulator like my [Safer Charge DC](https://nataliethenerd.com/products/safer-charge-dc)
+- [Q5 OSD Game Boy Color screen](https://s.click.aliexpress.com/e/_DmvDS95). The OSD allows you to move the screen
+- Funny Playing Game Boy Pocket shell, with this shell you wont need to perform any trims.
+
+**New parts**
+
+- [Thumbwheel](https://s.click.aliexpress.com/e/_DFcsKf1)
+
+## Thanks
+- Hozy for the original Pocket Color concept
+- Console and Casks for the thumbwheel circuit
+
+## Follow me
+
+If you are into Game Boy modding or retro gaming, please consider using code "NatalieTheNerd" at:
+
+• [Retro Modding](http://RetroModding.com)
+• [Retro Game Repair Shop](http://RetroGameRepairShop.com)
+• [Extreme Rate](http://ExtremeRate.com)
+
+My socials
+
 [Twitter](https://twitter.com/natalie_thenerd)
 
 [Instagram](https://www.instagram.com/natalie.thenerd/)
@@ -20,7 +51,11 @@ You can support me on Ko-Fi or by buying the board directly from me [my store](h
 [Modded Gameboy Club](https://moddedgameboy.club/) - a club dedicated to the modification of Game Boys, freely sharing resources
 
 
-### CC BY-SA 4.0 Summary
+### License
+
+Please do not remove my logo, website and name.
+
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 The CC BY-SA 4.0 (Creative Commons Attribution-ShareAlike 4.0 International) license allows you to:
 
