@@ -4,7 +4,7 @@ Full pocket colour PCB using the original parts
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-## CC BY-SA 4.0 Summary
+### CC BY-SA 4.0 Summary
 
 The CC BY-SA 4.0 (Creative Commons Attribution-ShareAlike 4.0 International) license allows you to:
 
