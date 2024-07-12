@@ -11,7 +11,7 @@ I also occasionally sell pre built PCBs on my store.
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/L4L12T33R)
 
 
-### Building
+## Building
 
 ![boardview](https://github.com/user-attachments/assets/57423323-dd4f-4246-84e5-625e1ff1f266)
 
