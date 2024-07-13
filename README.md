@@ -3,6 +3,7 @@
 
 Poco = Pocket Color. This project allows you to put a Game Boy Color in a Game Boy pocket shell. Full pocket colour PCB using the original parts. This board is made with modern screen kits in mind meaning it does not have the voltage rails for the original screen.
 
+**ORDER AT 1MM WITH ENIG**
 
 You can support me on Ko-Fi or by buying the board directly from me [my store](https://nataliethenerd.com/collections/all)
 
