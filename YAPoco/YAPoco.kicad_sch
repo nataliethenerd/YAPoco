@@ -13,23 +13,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 -12.7 0)
+			(property "Reference" "U1"
+				(at 8.89 3.6942 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "CGB CPU"
-				(at 0 -15.24 0)
+				(at 8.89 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "CGB:CPU CGB"
 				(at 2.54 0 0)
 				(effects
 					(font
@@ -102,7 +104,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -2.54 2.54 270)
+					(at 5.08 2.54 270)
 					(length 2.54)
 					(name "VDD3"
 						(effects
@@ -194,7 +196,7 @@
 				(pin unspecified line
 					(at 15.24 -33.02 180)
 					(length 2.54)
-					(name "P12"
+					(name "P13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -212,7 +214,7 @@
 				(pin unspecified line
 					(at 15.24 -35.56 180)
 					(length 2.54)
-					(name "P13"
+					(name "P12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -372,7 +374,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 2.54 2.54 270)
+					(at -5.08 2.54 270)
 					(length 2.54)
 					(name "VDD5"
 						(effects
@@ -732,7 +734,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 15.24 -78.74 180)
+					(at -15.24 -81.28 0)
 					(length 2.54)
 					(name "NC"
 						(effects
@@ -768,7 +770,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -15.24 -86.36 0)
+					(at 15.24 -86.36 180)
 					(length 2.54)
 					(name "SCLK"
 						(effects
@@ -786,7 +788,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -15.24 -88.9 0)
+					(at 15.24 -88.9 180)
 					(length 2.54)
 					(name "SIN"
 						(effects
@@ -804,7 +806,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -15.24 -91.44 0)
+					(at 15.24 -91.44 180)
 					(length 2.54)
 					(name "SOUT"
 						(effects
@@ -840,7 +842,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 15.24 -63.5 180)
+					(at 15.24 -66.04 180)
 					(length 2.54)
 					(name "R0"
 						(effects
@@ -858,7 +860,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 15.24 -66.04 180)
+					(at 15.24 -68.58 180)
 					(length 2.54)
 					(name "R1"
 						(effects
@@ -876,7 +878,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 15.24 -68.58 180)
+					(at 15.24 -71.12 180)
 					(length 2.54)
 					(name "R2"
 						(effects
@@ -894,7 +896,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 15.24 -71.12 180)
+					(at 15.24 -73.66 180)
 					(length 2.54)
 					(name "R3"
 						(effects
@@ -1002,7 +1004,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 15.24 -55.88 180)
+					(at 15.24 -58.42 180)
 					(length 2.54)
 					(name "XTAL2"
 						(effects
@@ -1022,7 +1024,7 @@
 				(pin unspecified line
 					(at 15.24 -7.62 180)
 					(length 2.54)
-					(name "MI"
+					(name "M1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1040,7 +1042,7 @@
 				(pin unspecified line
 					(at 15.24 -10.16 180)
 					(length 2.54)
-					(name "NMI"
+					(name "NM1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1074,7 +1076,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 15.24 -81.28 180)
+					(at -15.24 -83.82 0)
 					(length 2.54)
 					(name "NC"
 						(effects
@@ -1092,7 +1094,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 15.24 -83.82 180)
+					(at -15.24 -86.36 0)
 					(length 2.54)
 					(name "NC"
 						(effects
@@ -1110,7 +1112,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 15.24 -86.36 180)
+					(at -15.24 -88.9 0)
 					(length 2.54)
 					(name "NC"
 						(effects
@@ -1128,7 +1130,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 15.24 -88.9 180)
+					(at -15.24 -91.44 0)
 					(length 2.54)
 					(name "NC"
 						(effects
@@ -1146,7 +1148,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 15.24 -91.44 180)
+					(at -15.24 -93.98 0)
 					(length 2.54)
 					(name "NC"
 						(effects
@@ -1164,7 +1166,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 15.24 -93.98 180)
+					(at -15.24 -96.52 0)
 					(length 2.54)
 					(name "NC"
 						(effects
@@ -1182,7 +1184,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 15.24 -96.52 180)
+					(at -15.24 -99.06 0)
 					(length 2.54)
 					(name "NC"
 						(effects
@@ -1200,7 +1202,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 15.24 -99.06 180)
+					(at -15.24 -101.6 0)
 					(length 2.54)
 					(name "NC"
 						(effects
@@ -1272,7 +1274,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -15.24 -93.98 0)
+					(at 15.24 -93.98 180)
 					(length 2.54)
 					(name "R4"
 						(effects
@@ -2970,23 +2972,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 -12.7 0)
+			(property "Reference" "U1"
+				(at 8.89 3.6942 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "CGB CPU"
-				(at 0 -15.24 0)
+				(at 8.89 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "CGB:CPU CGB"
 				(at 2.54 0 0)
 				(effects
 					(font
@@ -3151,7 +3155,7 @@
 				(pin unspecified line
 					(at 15.24 -33.02 180)
 					(length 2.54)
-					(name "P12"
+					(name "P13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3169,7 +3173,7 @@
 				(pin unspecified line
 					(at 15.24 -35.56 180)
 					(length 2.54)
-					(name "P13"
+					(name "P12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11520,7 +11524,7 @@
 		(dnp no)
 		(uuid "4b7c1b4a-c30e-43c8-a38d-3400e5a27687")
 		(property "Reference" "U1"
-			(at 209.55 71.8708 0)
+			(at 222.25 54.7258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11529,7 +11533,7 @@
 			)
 		)
 		(property "Value" "CGB CPU"
-			(at 209.55 74.295 0)
+			(at 222.25 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
