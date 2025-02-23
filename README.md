@@ -37,6 +37,10 @@ The thumbwheel circuit can be connected to an OSD screen to control brightness. 
 
 - [Thumbwheel](https://s.click.aliexpress.com/e/_DFcsKf1)
 
+## Update log:
+
+Feb25: added pinouts for battery and 5V for testing and also my Safer Charger battery indicator LED board. Fixed some shielding pins, tied them to ground.
+
 ## Thanks
 - Hozy for the original Pocket Color concept
 - Console and Casks for the thumbwheel circuit
