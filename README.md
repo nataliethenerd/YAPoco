@@ -1,4 +1,4 @@
-# Yet Another Poco
+# Yet Another Pocket Color (YAP)
 ![IMG_3233](https://github.com/user-attachments/assets/1467b565-ee4c-46fc-b0bd-95ebfb62f689)
 
 Poco = Pocket Color. This project allows you to put a Game Boy Color in a Game Boy pocket shell. Full pocket colour PCB using the original parts. This board is made with modern screen kits in mind meaning it does not have the voltage rails for the original screen.
