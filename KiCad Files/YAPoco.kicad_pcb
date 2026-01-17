@@ -7,6 +7,10 @@
 		(legacy_teardrops yes)
 	)
 	(paper "A4")
+	(title_block
+		(title "Yet Another Pocket Color (YAP)")
+		(company "nataliethenerd.com")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -140,8 +144,8 @@
 	(net 25 "unconnected-(P2-VCC-Pad2)")
 	(net 26 "unconnected-(P2-VDD-Pad1)")
 	(net 27 "unconnected-(P2-VSS-Pad8)")
-	(net 28 "/R1")
-	(net 29 "/R3")
+	(net 28 "unconnected-(U1A-R1-Pad46)")
+	(net 29 "unconnected-(U1A-R3-Pad48)")
 	(net 30 "/REVC")
 	(net 31 "Net-(C38-Pad1)")
 	(net 32 "Net-(EM10-Pad2)")
@@ -183,9 +187,9 @@
 	(net 68 "Net-(P5-Pin_4)")
 	(net 69 "Net-(P5-Pin_5)")
 	(net 70 "Net-(Q2-C)")
-	(net 71 "/R0")
+	(net 71 "unconnected-(U1A-R0-Pad45)")
 	(net 72 "Net-(P2-VCOM-Pad11)")
-	(net 73 "/R2")
+	(net 73 "unconnected-(U1A-R2-Pad47)")
 	(net 74 "unconnected-(U5-Pin_5-Pad5)")
 	(net 75 "/CGB_Controls/P00")
 	(net 76 "/CGB_Serial/SCLK")
@@ -330,7 +334,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -357,9 +361,9 @@
 			)
 		)
 		(path "/aef3d5cc-4cd2-4be2-a263-68e4f26643ca/7c48316c-b4b8-4bbf-b41f-1f26ca13e871")
-		(sheetname "CGB_Controls")
+		(sheetname "/CGB_Controls/")
 		(sheetfile "CGB_Controls.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(pad "1" smd custom
 			(at -1.2 5.95)
 			(size 0.543 0.862)
@@ -508,9 +512,9 @@
 			)
 		)
 		(path "/b4409ae7-d09b-4687-9194-f14666c25ce4/1f0b33cf-2ddf-44b5-a9e5-6a89c1f93d26")
-		(sheetname "CGB_Power")
+		(sheetname "/CGB_Power/")
 		(sheetfile "cgb_power.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_circle
 			(center 0 5.80836)
 			(end 0.9 5.80836)
@@ -528,7 +532,6 @@
 			(drill oval 1.3 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 3 "GND")
 			(uuid "ade00ae9-c8de-40ff-8828-5649ebfef72b")
 		)
 		(pad "" thru_hole oval
@@ -537,7 +540,6 @@
 			(drill oval 1.3 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 3 "GND")
 			(uuid "b22abedd-3d9a-4736-ab81-b257aadebb20")
 		)
 		(pad "1" thru_hole oval
@@ -652,7 +654,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x06"
+		(property "Value" "Serial Port"
 			(at 0 1 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -665,7 +667,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -693,9 +695,9 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/30e89589-4508-4793-b546-14c62b47a679/c6afd835-f7c2-451c-b8a8-236003fdf096")
-		(sheetname "CGB_Serial")
+		(sheetname "/CGB_Serial/")
 		(sheetfile "CGB_Serial.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_rect
 			(start -1.75 6.1)
 			(end 3.95 12.9)
@@ -713,7 +715,6 @@
 			(drill oval 2 1.4)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 3 "GND")
 			(uuid "53e1e66f-d084-4c58-bda4-e531f8c0ce71")
 		)
 		(pad "" thru_hole oval
@@ -722,7 +723,6 @@
 			(drill oval 2 1.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 3 "GND")
 			(uuid "8d13bd23-6836-4a31-9250-713980597f2f")
 		)
 		(pad "1" thru_hole circle
@@ -822,7 +822,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -849,9 +849,9 @@
 			)
 		)
 		(path "/aef3d5cc-4cd2-4be2-a263-68e4f26643ca/a461fb84-6bb9-4052-8e88-012efad85152")
-		(sheetname "CGB_Controls")
+		(sheetname "/CGB_Controls/")
 		(sheetfile "CGB_Controls.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(pad "1" smd custom
 			(at -1.2 5.95 180)
 			(size 0.543 0.862)
@@ -1099,7 +1099,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1126,9 +1126,9 @@
 			)
 		)
 		(path "/aef3d5cc-4cd2-4be2-a263-68e4f26643ca/a33a6d99-4aa1-45ef-9952-260964a8cea6")
-		(sheetname "CGB_Controls")
+		(sheetname "/CGB_Controls/")
 		(sheetfile "CGB_Controls.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(pad "1" smd custom
 			(at -0.731451 2.395294)
 			(size 0.493 0.862)
@@ -1399,7 +1399,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1427,9 +1427,9 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/82d82ae0-0c62-4e78-b1d3-2c0acd519e08")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "YAPoco.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(pad "1" thru_hole circle
 			(at 23.200469 4.091971 180)
 			(size 1.3 1.3)
@@ -2982,7 +2982,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3010,9 +3010,9 @@
 		)
 		(property ki_fp_filters "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*")
 		(path "/b4409ae7-d09b-4687-9194-f14666c25ce4/24744d76-13dd-45b0-bffd-ca4be25ead7e")
-		(sheetname "CGB_Power")
+		(sheetname "/CGB_Power/")
 		(sheetfile "cgb_power.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(pad "1" thru_hole circle
 			(at -8.404562 3.695078)
 			(size 1.8 1.8)
@@ -3172,7 +3172,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "Conn_01x05"
+		(property "Value" "Headphone Jack"
 			(at 0 -2.6 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3184,7 +3184,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3212,9 +3212,9 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c579c6ec-c4ad-408c-9bf7-753406348d9b/a5d6410c-dd50-4386-82b2-212efbb5c2ad")
-		(sheetname "CGB_Sound")
+		(sheetname "/CGB_Sound/")
 		(sheetfile "CGB_Sound.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_circle
 			(center 0.1 3.8)
 			(end 1.1 3.8)
@@ -3327,7 +3327,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3354,9 +3354,9 @@
 			)
 		)
 		(path "/aef3d5cc-4cd2-4be2-a263-68e4f26643ca/c5424ac1-5eae-49b5-aaea-57beb86c971e")
-		(sheetname "CGB_Controls")
+		(sheetname "/CGB_Controls/")
 		(sheetfile "CGB_Controls.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(pad "1" smd custom
 			(at -1.2 5.3)
 			(size 0.45 0.45)
@@ -3450,7 +3450,7 @@
 			(at -3.1 5.3)
 			(size 0.45 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 119 "/CGB_Controls/P12")
+			(net 120 "/CGB_Controls/P13")
 			(pinfunction "2")
 			(pintype "passive")
 			(options
@@ -3472,7 +3472,7 @@
 			(at 0.7 5.4)
 			(size 0.543 0.762)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 119 "/CGB_Controls/P12")
+			(net 120 "/CGB_Controls/P13")
 			(pinfunction "2")
 			(pintype "passive")
 			(options
@@ -3518,7 +3518,7 @@
 			(at 2.75 3.35)
 			(size 0.45 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 119 "/CGB_Controls/P12")
+			(net 120 "/CGB_Controls/P13")
 			(pinfunction "2")
 			(pintype "passive")
 			(options
@@ -3630,7 +3630,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3657,9 +3657,9 @@
 			)
 		)
 		(path "/aef3d5cc-4cd2-4be2-a263-68e4f26643ca/a5ba5ebd-ee07-4c31-9f0a-2f15bab1dac1")
-		(sheetname "CGB_Controls")
+		(sheetname "/CGB_Controls/")
 		(sheetfile "CGB_Controls.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(pad "1" smd custom
 			(at -0.731451 2.395294)
 			(size 0.493 0.862)
@@ -3862,7 +3862,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3889,7 +3889,7 @@
 			)
 		)
 		(path "/b4409ae7-d09b-4687-9194-f14666c25ce4/20b72c7b-949d-4dd1-a012-f4b1fb161e01")
-		(sheetname "CGB_Power")
+		(sheetname "/CGB_Power/")
 		(sheetfile "cgb_power.kicad_sch")
 		(attr smd)
 		(pad "1" thru_hole oval
@@ -4067,7 +4067,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4095,7 +4095,7 @@
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/b4409ae7-d09b-4687-9194-f14666c25ce4/cf6841ee-da0c-4940-9e3d-f69004258372")
-		(sheetname "CGB_Power")
+		(sheetname "/CGB_Power/")
 		(sheetfile "cgb_power.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -4298,7 +4298,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4325,9 +4325,9 @@
 			)
 		)
 		(path "/aef3d5cc-4cd2-4be2-a263-68e4f26643ca/ff8b9944-1480-4131-82ab-313394393a5b")
-		(sheetname "CGB_Controls")
+		(sheetname "/CGB_Controls/")
 		(sheetfile "CGB_Controls.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(pad "1" smd custom
 			(at -1.2 5.95 270)
 			(size 0.543 0.862)
@@ -4449,7 +4449,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4476,9 +4476,9 @@
 			)
 		)
 		(path "/aef3d5cc-4cd2-4be2-a263-68e4f26643ca/104f50a9-be28-4e45-9637-72e9bbfa4af3")
-		(sheetname "CGB_Controls")
+		(sheetname "/CGB_Controls/")
 		(sheetfile "CGB_Controls.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(pad "1" smd custom
 			(at -1.2 5.95 90)
 			(size 0.543 0.862)
@@ -4600,7 +4600,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4627,9 +4627,9 @@
 			)
 		)
 		(path "/aef3d5cc-4cd2-4be2-a263-68e4f26643ca/f9efef8e-d294-40bd-ad14-7606779edc19")
-		(sheetname "CGB_Controls")
+		(sheetname "/CGB_Controls/")
 		(sheetfile "CGB_Controls.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(pad "1" smd custom
 			(at -3.1 3.25)
 			(size 0.443 0.512)
@@ -4747,7 +4747,7 @@
 			(at -2.85 5.1)
 			(size 0.443 0.512)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 120 "/CGB_Controls/P13")
+			(net 119 "/CGB_Controls/P12")
 			(pinfunction "2")
 			(pintype "passive")
 			(options
@@ -4792,7 +4792,7 @@
 			(at 0.85 5.15)
 			(size 0.443 0.512)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 120 "/CGB_Controls/P13")
+			(net 119 "/CGB_Controls/P12")
 			(pinfunction "2")
 			(pintype "passive")
 			(options
@@ -4866,7 +4866,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4894,7 +4894,7 @@
 		)
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/c579c6ec-c4ad-408c-9bf7-753406348d9b/e7aa97e0-2668-47ac-a479-299fff6a97d2")
-		(sheetname "CGB_Sound")
+		(sheetname "/CGB_Sound/")
 		(sheetfile "CGB_Sound.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5070,7 +5070,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5098,7 +5098,7 @@
 		)
 		(property ki_fp_filters "Connector*:*2Rows*Pins__* *FCC*2Rows*Pins__*")
 		(path "/398885f7-bf74-4bc5-b75d-a22c07ed26a3")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "YAPoco.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5336,7 +5336,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5364,7 +5364,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/30e89589-4508-4793-b546-14c62b47a679/c85f0023-b5fc-42e7-9a8b-a98a6f583c64")
-		(sheetname "CGB_Serial")
+		(sheetname "/CGB_Serial/")
 		(sheetfile "CGB_Serial.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5540,7 +5540,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -5570,7 +5570,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/6eb080a7-c804-4178-ac77-f236a09cae4a/310d121d-3829-4390-895c-d428fb12100c")
-		(sheetname "CGB_Screen")
+		(sheetname "/CGB_Screen/")
 		(sheetfile "cgb_screen.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5746,7 +5746,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5774,7 +5774,7 @@
 		)
 		(property ki_fp_filters "CP_*")
 		(path "/b4409ae7-d09b-4687-9194-f14666c25ce4/1f9a9ee8-6c1b-467c-ad6d-2894e2feb51b")
-		(sheetname "CGB_Power")
+		(sheetname "/CGB_Power/")
 		(sheetfile "cgb_power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6181,7 +6181,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6235,7 +6235,7 @@
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/b4409ae7-d09b-4687-9194-f14666c25ce4/11604a7a-bad2-4a10-9c5f-dcfcb610c13c")
-		(sheetname "CGB_Power")
+		(sheetname "/CGB_Power/")
 		(sheetfile "cgb_power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6484,7 +6484,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6511,9 +6511,9 @@
 			)
 		)
 		(path "/c579c6ec-c4ad-408c-9bf7-753406348d9b/da91245f-91cc-4c15-b3c1-7fcaeee4c457")
-		(sheetname "CGB_Sound")
+		(sheetname "/CGB_Sound/")
 		(sheetfile "CGB_Sound.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.53 0.9)
 			(end 3.07 0.9)
@@ -6740,7 +6740,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6768,7 +6768,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/c579c6ec-c4ad-408c-9bf7-753406348d9b/b953c720-25e7-416d-a799-306083ca1615")
-		(sheetname "CGB_Sound")
+		(sheetname "/CGB_Sound/")
 		(sheetfile "CGB_Sound.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6944,7 +6944,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6972,7 +6972,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/1e7596ed-2989-41e6-8832-5d9483e1268d")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "YAPoco.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7611,7 +7611,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7639,7 +7639,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/08f972f3-8467-4f72-a5fb-4dd1e3fa522b")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "YAPoco.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7815,7 +7815,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7843,7 +7843,7 @@
 		)
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/c579c6ec-c4ad-408c-9bf7-753406348d9b/7365ca6d-9d3b-4be6-8b31-c88947d7f2f4")
-		(sheetname "CGB_Sound")
+		(sheetname "/CGB_Sound/")
 		(sheetfile "CGB_Sound.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8046,9 +8046,9 @@
 			)
 		)
 		(path "/c579c6ec-c4ad-408c-9bf7-753406348d9b/3c5b4bc6-f210-4b17-bb0a-6fd4b84c9731")
-		(sheetname "CGB_Sound")
+		(sheetname "/CGB_Sound/")
 		(sheetfile "CGB_Sound.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_line
 			(start 4.25 -10.75)
 			(end 4.4 -10.9)
@@ -8319,7 +8319,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8347,7 +8347,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/6eb080a7-c804-4178-ac77-f236a09cae4a/1dedb1b3-0775-4004-92f6-2dbb22708d21")
-		(sheetname "CGB_Screen")
+		(sheetname "/CGB_Screen/")
 		(sheetfile "cgb_screen.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8512,7 +8512,7 @@
 				(justify right top mirror)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "Thumbwheel Toggle Switch"
 			(at 7.65 -5.18 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -8525,7 +8525,7 @@
 				(justify left bottom mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 1.3 -0.1 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -8555,7 +8555,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/6eb080a7-c804-4178-ac77-f236a09cae4a/2f784046-28a9-4ff4-b68a-e389cb5876e8")
-		(sheetname "CGB_Screen")
+		(sheetname "/CGB_Screen/")
 		(sheetfile "cgb_screen.kicad_sch")
 		(fp_line
 			(start -9.3 -0.1)
@@ -8854,7 +8854,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8882,7 +8882,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/4397be5e-9226-4dc5-8038-9100c0ba6400")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "YAPoco.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9058,7 +9058,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9088,7 +9088,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/6eb080a7-c804-4178-ac77-f236a09cae4a/9c27fb25-1ccb-46e2-af69-a67b4b37cd61")
-		(sheetname "CGB_Screen")
+		(sheetname "/CGB_Screen/")
 		(sheetfile "cgb_screen.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9264,7 +9264,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9292,7 +9292,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/b4409ae7-d09b-4687-9194-f14666c25ce4/4d9e4377-2629-418e-9437-9c3bc3540584")
-		(sheetname "CGB_Power")
+		(sheetname "/CGB_Power/")
 		(sheetfile "cgb_power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9468,7 +9468,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9496,7 +9496,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/c579c6ec-c4ad-408c-9bf7-753406348d9b/fa9403c2-0b89-4b1e-802b-84735f3c6fca")
-		(sheetname "CGB_Sound")
+		(sheetname "/CGB_Sound/")
 		(sheetfile "CGB_Sound.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9672,7 +9672,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9700,7 +9700,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/b4409ae7-d09b-4687-9194-f14666c25ce4/5535f917-5d07-43ce-834c-451eb7465fa2")
-		(sheetname "CGB_Power")
+		(sheetname "/CGB_Power/")
 		(sheetfile "cgb_power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9876,7 +9876,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9904,7 +9904,7 @@
 		)
 		(property ki_fp_filters "CP_*")
 		(path "/c579c6ec-c4ad-408c-9bf7-753406348d9b/bfb4cf42-3a8c-460b-9570-7e46471eeb51")
-		(sheetname "CGB_Sound")
+		(sheetname "/CGB_Sound/")
 		(sheetfile "CGB_Sound.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10311,7 +10311,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10339,7 +10339,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/c579c6ec-c4ad-408c-9bf7-753406348d9b/eaaaa05d-11b1-48af-bb56-f4be446bfbe0")
-		(sheetname "CGB_Sound")
+		(sheetname "/CGB_Sound/")
 		(sheetfile "CGB_Sound.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10543,7 +10543,7 @@
 		)
 		(property ki_fp_filters "TO?39*")
 		(path "/b4409ae7-d09b-4687-9194-f14666c25ce4/d19d5021-2285-4f1f-853f-d206654fc597")
-		(sheetname "CGB_Power")
+		(sheetname "/CGB_Power/")
 		(sheetfile "cgb_power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10746,7 +10746,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "R_Pack02_SIP_Split"
+		(property "Value" "510R"
 			(at 0 -1.85 90)
 			(layer "B.Fab")
 			(uuid "ea926d2f-7cb4-4f47-a6ec-8b4acda653d8")
@@ -10786,7 +10786,7 @@
 		)
 		(property ki_fp_filters "R?Array?SIP*")
 		(path "/c579c6ec-c4ad-408c-9bf7-753406348d9b/c974e70c-51cc-4f9f-950e-9985e4ed4e27")
-		(sheetname "CGB_Sound")
+		(sheetname "/CGB_Sound/")
 		(sheetfile "CGB_Sound.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10980,7 +10980,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11008,7 +11008,7 @@
 		)
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/c579c6ec-c4ad-408c-9bf7-753406348d9b/6055f813-abad-4a98-820b-5eb18cb0ee26")
-		(sheetname "CGB_Sound")
+		(sheetname "/CGB_Sound/")
 		(sheetfile "CGB_Sound.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11184,7 +11184,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11212,7 +11212,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/c579c6ec-c4ad-408c-9bf7-753406348d9b/05479b53-9eea-44a3-acba-d6503a8ac5fe")
-		(sheetname "CGB_Sound")
+		(sheetname "/CGB_Sound/")
 		(sheetfile "CGB_Sound.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11388,7 +11388,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11442,7 +11442,7 @@
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/b4409ae7-d09b-4687-9194-f14666c25ce4/0c4a82bb-d215-40b6-9f09-757f9a21d815")
-		(sheetname "CGB_Power")
+		(sheetname "/CGB_Power/")
 		(sheetfile "cgb_power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11690,7 +11690,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11718,7 +11718,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/a7c75f91-6022-460d-a2dd-991a1e68ea9e")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "YAPoco.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11894,7 +11894,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11922,7 +11922,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/f83bea17-21d5-4131-adf8-4539f2a6d2bc")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "YAPoco.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12098,7 +12098,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12126,7 +12126,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/b4409ae7-d09b-4687-9194-f14666c25ce4/95dcb9f5-b0e6-4a2c-ac1a-faa0c122542f")
-		(sheetname "CGB_Power")
+		(sheetname "/CGB_Power/")
 		(sheetfile "cgb_power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12302,7 +12302,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12330,7 +12330,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/c579c6ec-c4ad-408c-9bf7-753406348d9b/17cb13a6-1155-4837-a08d-d6c6e6957c77")
-		(sheetname "CGB_Sound")
+		(sheetname "/CGB_Sound/")
 		(sheetfile "CGB_Sound.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12494,7 +12494,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "FPC 50 Pin 0.5 Pitch (top contacts)"
 			(at 0 -1 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12534,7 +12534,7 @@
 			)
 		)
 		(path "/6eb080a7-c804-4178-ac77-f236a09cae4a/4d1a1749-0be7-44cf-a4d8-c397cc83d5c4")
-		(sheetname "CGB_Screen")
+		(sheetname "/CGB_Screen/")
 		(sheetfile "cgb_screen.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13140,7 +13140,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13168,7 +13168,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/c579c6ec-c4ad-408c-9bf7-753406348d9b/593737b6-3d33-48d7-af1e-a2cbd352828b")
-		(sheetname "CGB_Sound")
+		(sheetname "/CGB_Sound/")
 		(sheetfile "CGB_Sound.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13344,7 +13344,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13372,7 +13372,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/c579c6ec-c4ad-408c-9bf7-753406348d9b/9f413f7a-4eab-4eed-aff4-66dd566ea81b")
-		(sheetname "CGB_Sound")
+		(sheetname "/CGB_Sound/")
 		(sheetfile "CGB_Sound.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13536,7 +13536,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "Crystal_Small"
+		(property "Value" "8.388608MHZ"
 			(at 0 -1 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13549,7 +13549,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13577,7 +13577,7 @@
 		)
 		(property ki_fp_filters "Crystal*")
 		(path "/095582e5-7418-42d5-9778-1d6702d797dc")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "YAPoco.kicad_sch")
 		(attr smd)
 		(pad "1" smd rect
@@ -13652,7 +13652,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13680,7 +13680,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/c579c6ec-c4ad-408c-9bf7-753406348d9b/44293077-96c5-4dbd-a309-ecaa883b6a3a")
-		(sheetname "CGB_Sound")
+		(sheetname "/CGB_Sound/")
 		(sheetfile "CGB_Sound.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13844,7 +13844,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "R_Pack02_SIP_Split"
+		(property "Value" "15R"
 			(at 0 -1.85 90)
 			(layer "B.Fab")
 			(uuid "6a5b637b-6335-4d98-86a6-5c863c342983")
@@ -13884,7 +13884,7 @@
 		)
 		(property ki_fp_filters "R?Array?SIP*")
 		(path "/c579c6ec-c4ad-408c-9bf7-753406348d9b/abf2351c-8f5b-4aed-b3fb-9f39b45a4cc8")
-		(sheetname "CGB_Sound")
+		(sheetname "/CGB_Sound/")
 		(sheetfile "CGB_Sound.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14078,7 +14078,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14106,7 +14106,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/790b4bdf-6b17-480c-bc1b-16c355c3cf2c")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "YAPoco.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14282,7 +14282,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14310,7 +14310,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/30e89589-4508-4793-b546-14c62b47a679/adb84f4c-8d55-4d5f-9d7e-ae711ad97bf0")
-		(sheetname "CGB_Serial")
+		(sheetname "/CGB_Serial/")
 		(sheetfile "CGB_Serial.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14486,7 +14486,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14514,7 +14514,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/58824e15-49ea-401c-8e67-ab86aafc79d9")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "YAPoco.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14690,7 +14690,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14718,7 +14718,7 @@
 		)
 		(property ki_fp_filters "*Fuse*")
 		(path "/b4409ae7-d09b-4687-9194-f14666c25ce4/5e9a87e1-739d-4ccf-b53a-094d1bb37b7b")
-		(sheetname "CGB_Power")
+		(sheetname "/CGB_Power/")
 		(sheetfile "cgb_power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14894,7 +14894,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14922,7 +14922,7 @@
 		)
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/c579c6ec-c4ad-408c-9bf7-753406348d9b/93587a03-6a1f-4a33-82a5-67eecabbfae0")
-		(sheetname "CGB_Sound")
+		(sheetname "/CGB_Sound/")
 		(sheetfile "CGB_Sound.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15125,7 +15125,7 @@
 			)
 		)
 		(path "/30e89589-4508-4793-b546-14c62b47a679/42bb8937-6ef0-410b-bee1-13744eeaf0e6")
-		(sheetname "CGB_Serial")
+		(sheetname "/CGB_Serial/")
 		(sheetfile "CGB_Serial.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15335,7 +15335,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "CGB SRAM"
 			(at 0 -5.7 90)
 			(layer "B.Fab")
 			(uuid "f95bd9a9-8bd0-42d5-93bc-903e19d8d8c1")
@@ -15374,7 +15374,7 @@
 			)
 		)
 		(path "/e78174dc-1ee9-4949-9341-5e94de31fdd7")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "YAPoco.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15794,7 +15794,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15822,7 +15822,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/b4409ae7-d09b-4687-9194-f14666c25ce4/dbed3197-3ec5-48b1-a3db-d10853a5e94d")
-		(sheetname "CGB_Power")
+		(sheetname "/CGB_Power/")
 		(sheetfile "cgb_power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15998,7 +15998,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16026,7 +16026,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/a43d47ac-ceae-48f2-86d1-c05b53b5648a")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "YAPoco.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16202,7 +16202,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16230,7 +16230,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/c579c6ec-c4ad-408c-9bf7-753406348d9b/79c0fd75-4400-4a4f-b92f-643c4232140a")
-		(sheetname "CGB_Sound")
+		(sheetname "/CGB_Sound/")
 		(sheetfile "CGB_Sound.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16394,7 +16394,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "270"
+		(property "Value" "270R"
 			(at 0 -2.6 0)
 			(layer "B.Fab")
 			(uuid "61872554-29cf-47ec-a7f4-c602a75edec0")
@@ -16406,7 +16406,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16434,7 +16434,7 @@
 		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex*")
 		(path "/30e89589-4508-4793-b546-14c62b47a679/7b105e70-d972-4e63-8f80-a740a264c575")
-		(sheetname "CGB_Serial")
+		(sheetname "/CGB_Serial/")
 		(sheetfile "CGB_Serial.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16691,9 +16691,9 @@
 			)
 		)
 		(path "/b4409ae7-d09b-4687-9194-f14666c25ce4/f3bf8118-6d87-4490-965e-60fac9ce0a0c")
-		(sheetname "CGB_Power")
+		(sheetname "/CGB_Power/")
 		(sheetfile "cgb_power.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_line
 			(start 0 -1.56)
 			(end 0.8 -1.56)
@@ -16929,7 +16929,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16957,7 +16957,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/6eb080a7-c804-4178-ac77-f236a09cae4a/50113c13-a929-4753-a0d2-0986b27b0ae3")
-		(sheetname "CGB_Screen")
+		(sheetname "/CGB_Screen/")
 		(sheetfile "cgb_screen.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17133,7 +17133,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17161,7 +17161,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/abc7e0f8-755b-414e-8cc6-ddcc4377d0bc")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "YAPoco.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17337,7 +17337,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17365,7 +17365,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/b4409ae7-d09b-4687-9194-f14666c25ce4/e8dda92f-65ac-4d9e-8032-b40aa619bea8")
-		(sheetname "CGB_Power")
+		(sheetname "/CGB_Power/")
 		(sheetfile "cgb_power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17541,7 +17541,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17569,7 +17569,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/4a0fdff6-92c4-4461-a24b-1bc843941eaf")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "YAPoco.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17745,7 +17745,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17773,7 +17773,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/b4409ae7-d09b-4687-9194-f14666c25ce4/3dfea589-1938-4b0d-a1bc-313d19773de9")
-		(sheetname "CGB_Power")
+		(sheetname "/CGB_Power/")
 		(sheetfile "cgb_power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17949,7 +17949,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17977,7 +17977,7 @@
 		)
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/b4409ae7-d09b-4687-9194-f14666c25ce4/cef66d05-e9f8-410c-a900-5467f502a3e7")
-		(sheetname "CGB_Power")
+		(sheetname "/CGB_Power/")
 		(sheetfile "cgb_power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18153,7 +18153,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18181,7 +18181,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/30e89589-4508-4793-b546-14c62b47a679/4bb719ac-3dae-430a-b140-56601e4d354f")
-		(sheetname "CGB_Serial")
+		(sheetname "/CGB_Serial/")
 		(sheetfile "CGB_Serial.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18385,9 +18385,9 @@
 			)
 		)
 		(path "/4b7c1b4a-c30e-43c8-a38d-3400e5a27687")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "YAPoco.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_line
 			(start 10.08758 -12.543978)
 			(end 10.08758 1.05)
@@ -19216,36 +19216,36 @@
 			(at 11.499997 -8.9)
 			(size 1.5 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net 71 "/R0")
+			(net 71 "unconnected-(U1A-R0-Pad45)")
 			(pinfunction "R0")
-			(pintype "unspecified")
+			(pintype "unspecified+no_connect")
 			(uuid "468cfb99-5b06-4389-b1bc-7518a2314209")
 		)
 		(pad "46" smd rect
 			(at 11.499998 -8.4)
 			(size 1.5 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net 28 "/R1")
+			(net 28 "unconnected-(U1A-R1-Pad46)")
 			(pinfunction "R1")
-			(pintype "unspecified")
+			(pintype "unspecified+no_connect")
 			(uuid "110db725-702b-447a-9235-7fa7e43e2294")
 		)
 		(pad "47" smd rect
 			(at 11.499998 -7.900002)
 			(size 1.5 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net 73 "/R2")
+			(net 73 "unconnected-(U1A-R2-Pad47)")
 			(pinfunction "R2")
-			(pintype "unspecified")
+			(pintype "unspecified+no_connect")
 			(uuid "e06f9bee-9177-4be4-9d22-135e5d0f59ed")
 		)
 		(pad "48" smd rect
 			(at 11.499998 -7.4)
 			(size 1.5 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net 29 "/R3")
+			(net 29 "unconnected-(U1A-R3-Pad48)")
 			(pinfunction "R3")
-			(pintype "unspecified")
+			(pintype "unspecified+no_connect")
 			(uuid "127bf2cf-ead0-4329-9ecf-7a60f60d0a7e")
 		)
 		(pad "49" smd rect
@@ -19955,7 +19955,7 @@
 			(size 1.5 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 119 "/CGB_Controls/P12")
-			(pinfunction "P12")
+			(pinfunction "P13")
 			(pintype "unspecified")
 			(uuid "abd8f6b0-cbbb-4683-b9c7-79373e7edff2")
 		)
@@ -19964,7 +19964,7 @@
 			(size 1.5 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 120 "/CGB_Controls/P13")
-			(pinfunction "P13")
+			(pinfunction "P12")
 			(pintype "unspecified")
 			(uuid "52472001-72ac-45f1-a1f7-de45226d9a4c")
 		)
@@ -20113,9 +20113,9 @@
 			)
 		)
 		(path "/b4409ae7-d09b-4687-9194-f14666c25ce4/17d56b5f-97d9-48a1-b499-2e5887177427")
-		(sheetname "CGB_Power")
+		(sheetname "/CGB_Power/")
 		(sheetfile "cgb_power.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy 2.54225 -17.472505) (xy 1.544586 -17.472505) (xy 1.544586 -19.386942) (xy -1.448408 -19.386942)
@@ -20266,7 +20266,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20294,7 +20294,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/30e89589-4508-4793-b546-14c62b47a679/91fb023d-d683-4709-95ae-8516727c60b2")
-		(sheetname "CGB_Serial")
+		(sheetname "/CGB_Serial/")
 		(sheetfile "CGB_Serial.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20470,7 +20470,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20498,7 +20498,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/30e89589-4508-4793-b546-14c62b47a679/8e042051-3fb4-4cbc-b533-05520c2fbe64")
-		(sheetname "CGB_Serial")
+		(sheetname "/CGB_Serial/")
 		(sheetfile "CGB_Serial.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20674,7 +20674,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20702,7 +20702,7 @@
 		)
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/b4409ae7-d09b-4687-9194-f14666c25ce4/919e44a5-219a-487e-80ea-4bb87af380ce")
-		(sheetname "CGB_Power")
+		(sheetname "/CGB_Power/")
 		(sheetfile "cgb_power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20878,7 +20878,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20906,7 +20906,7 @@
 		)
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/c579c6ec-c4ad-408c-9bf7-753406348d9b/99f98e7a-fbaf-476c-a024-d39422c61f67")
-		(sheetname "CGB_Sound")
+		(sheetname "/CGB_Sound/")
 		(sheetfile "CGB_Sound.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21070,7 +21070,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "Conn_01x05"
+		(property "Value" "10K Dual Thumbwheel Potentiometer"
 			(at 0 -1 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21083,7 +21083,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21111,7 +21111,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c579c6ec-c4ad-408c-9bf7-753406348d9b/7dfeb90f-21dc-4446-bf60-52e56c09c774")
-		(sheetname "CGB_Sound")
+		(sheetname "/CGB_Sound/")
 		(sheetfile "CGB_Sound.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21303,7 +21303,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21331,7 +21331,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/b4409ae7-d09b-4687-9194-f14666c25ce4/d34e7991-12b6-4249-b381-9915b9f2d708")
-		(sheetname "CGB_Power")
+		(sheetname "/CGB_Power/")
 		(sheetfile "cgb_power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21507,7 +21507,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21535,7 +21535,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/381b604d-ba7c-4dd5-a201-a21bac04da51")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "YAPoco.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21711,7 +21711,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21739,7 +21739,7 @@
 		)
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/30e89589-4508-4793-b546-14c62b47a679/7fc287bd-573e-4d9c-a37a-0544ee6923cf")
-		(sheetname "CGB_Serial")
+		(sheetname "/CGB_Serial/")
 		(sheetfile "CGB_Serial.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21915,7 +21915,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21943,7 +21943,7 @@
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/b4409ae7-d09b-4687-9194-f14666c25ce4/a1864655-a947-416d-a957-ea1c772e7f14")
-		(sheetname "CGB_Power")
+		(sheetname "/CGB_Power/")
 		(sheetfile "cgb_power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -22227,7 +22227,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22255,7 +22255,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/b4409ae7-d09b-4687-9194-f14666c25ce4/605b4ca7-e4cf-486c-8261-000f59764464")
-		(sheetname "CGB_Power")
+		(sheetname "/CGB_Power/")
 		(sheetfile "cgb_power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -22431,7 +22431,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22459,7 +22459,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/bb044b68-d49d-408d-9c6c-323e30ebefab")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "YAPoco.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -22623,7 +22623,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DNP"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "842c16c5-2ff0-4c0c-9a96-a92f9fcb7402")
@@ -22635,7 +22635,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22663,9 +22663,9 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/6e637e5a-a9f8-4c6f-bd6d-3bd6ef6bd888")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "YAPoco.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -22839,7 +22839,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22867,7 +22867,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/30e89589-4508-4793-b546-14c62b47a679/5e1bb924-d470-41c8-996f-5928e9f272f9")
-		(sheetname "CGB_Serial")
+		(sheetname "/CGB_Serial/")
 		(sheetfile "CGB_Serial.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -23043,7 +23043,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23071,7 +23071,7 @@
 		)
 		(property ki_fp_filters "*Fuse*")
 		(path "/b4409ae7-d09b-4687-9194-f14666c25ce4/3f31251d-2a57-4675-b10d-25b4016071bc")
-		(sheetname "CGB_Power")
+		(sheetname "/CGB_Power/")
 		(sheetfile "cgb_power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -23247,7 +23247,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23275,7 +23275,7 @@
 		)
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/b4409ae7-d09b-4687-9194-f14666c25ce4/220419a6-68b8-4eb6-adce-e025cf27e65a")
-		(sheetname "CGB_Power")
+		(sheetname "/CGB_Power/")
 		(sheetfile "cgb_power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -44869,5 +44869,151 @@
 			"f87b0867-034f-4396-8f36-2964d2b427c8" "feed16b1-3fd8-415d-b218-0e46141ccf8f"
 		)
 	)
-	(embedded_fonts no)
+	(embedded_fonts yes)
+	(embedded_files
+		(file
+			(name "THEBOLDFONT-FREEVERSION.ttf")
+			(type font)
+			(data |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|
+			)
+			(checksum "D6D0AB0E8B9F2861A3D96933BC4F5748")
+		)
+	)
 )

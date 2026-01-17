@@ -1,11 +1,11 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "2665ad79-d1ec-415b-8483-3766311e4008")
 	(paper "A4")
 	(title_block
-		(title "CGB Reverse Engineer")
+		(title "Yet Another Pocket Color (YAP)")
 		(company "NatalieTheNerd.com")
 	)
 	(lib_symbols
@@ -68,6 +68,150 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "MOD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 2.54)
+					(name "MOD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -10.16 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -12.7 0)
+					(length 2.54)
+					(name "SPS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -15.24 0)
+					(length 2.54)
+					(name "CLS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -17.78 0)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -20.32 0)
+					(length 2.54)
+					(name "VEE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -256,24 +400,6 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at 0 -48.26 0)
 					(length 2.54)
 					(name "G0"
@@ -446,24 +572,6 @@
 						)
 					)
 					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 2.54)
-					(name "MOD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -652,24 +760,6 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -7.62 0)
-					(length 2.54)
-					(name "MOD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at 0 -99.06 0)
 					(length 2.54)
 					(name "V0"
@@ -850,24 +940,6 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -10.16 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at 0 -124.46 0)
 					(length 2.54)
 					(name "GND"
@@ -878,78 +950,6 @@
 						)
 					)
 					(number "50"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -12.7 0)
-					(length 2.54)
-					(name "SPS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -15.24 0)
-					(length 2.54)
-					(name "CLS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -17.78 0)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -20.32 0)
-					(length 2.54)
-					(name "VEE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -971,11 +971,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1073,10 +1078,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1143,19 +1151,19 @@
 			)
 			(symbol "Conn_01x04_1_1"
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1176,8 +1184,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1187,14 +1195,14 @@
 					)
 				)
 				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
+					(start -1.27 -4.953)
+					(end 0 -5.207)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -1270,11 +1278,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1344,10 +1357,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -1356,10 +1369,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -1405,6 +1418,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
@@ -1482,7 +1496,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1494,7 +1508,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1508,7 +1522,8 @@
 			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+3V3"
 						(effects
 							(font
@@ -1525,6 +1540,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
@@ -1602,7 +1618,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1614,7 +1630,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1628,7 +1644,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+5V"
 						(effects
 							(font
@@ -1645,6 +1662,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -1724,7 +1742,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -1741,7 +1760,69 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "U9 HN1L02FU transistor array"
+		(exclude_from_sim no)
+		(at 46.355 102.235 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+			(href "https://github.com/nataliethenerd/CGB_ReverseEngineer/blob/main/datasheets/HN1L02FU.PDF")
+		)
+		(uuid "09e898a3-22fc-4f19-88b3-f1fc6148bff5")
+	)
+	(text "D1 Zener diode"
+		(exclude_from_sim no)
+		(at 46.355 95.885 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+			(href "https://github.com/nataliethenerd/CGB_ReverseEngineer/blob/main/datasheets/RD120S.PDF")
+		)
+		(uuid "53a70cd1-6a93-419a-8937-9e478b7a3145")
+	)
+	(text "Q1 PNP transistor"
+		(exclude_from_sim no)
+		(at 46.355 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+			(href "https://github.com/nataliethenerd/CGB_ReverseEngineer/blob/main/datasheets/2SA1576A.pdf")
+		)
+		(uuid "5552848a-e480-4e5c-a975-1833ed7ab9a3")
+	)
+	(text "NOTES:"
+		(exclude_from_sim no)
+		(at 45.72 92.71 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7d31b15-5427-4e1b-acfa-4a9786e09bea")
+	)
+	(text "U10 UMZ2N dual transistors"
+		(exclude_from_sim no)
+		(at 46.355 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+			(href "https://github.com/nataliethenerd/CGB_ReverseEngineer/blob/main/datasheets/UMZ2N.PDF")
+		)
+		(uuid "c625ece0-14a8-43f8-99f1-e1fc8e80520f")
 	)
 	(junction
 		(at 219.075 144.78)
@@ -1979,16 +2060,6 @@
 		)
 		(uuid "1c4f22c4-859c-4e08-a894-8b6777adcc58")
 	)
-	(polyline
-		(pts
-			(xy 207.01 163.83) (xy 174.625 163.83)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "1c5ac232-cb0e-4074-b6c9-b31c72e02096")
-	)
 	(bus
 		(pts
 			(xy 212.09 46.99) (xy 212.09 49.53)
@@ -2079,26 +2150,6 @@
 		)
 		(uuid "2b2c98f4-4b38-44bd-8ea0-71dfd1b599c2")
 	)
-	(polyline
-		(pts
-			(xy 161.29 80.01) (xy 161.29 119.38)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "2c5ecef4-4654-4df1-b915-92ceeb808bbb")
-	)
-	(polyline
-		(pts
-			(xy 161.29 119.38) (xy 207.01 119.38)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "2e06bfb2-6896-4a43-b2dd-e7e083ea2f16")
-	)
 	(wire
 		(pts
 			(xy 216.535 105.41) (xy 220.345 105.41)
@@ -2128,16 +2179,6 @@
 			(type default)
 		)
 		(uuid "363d09ed-876e-47f6-9846-3a687a5d6e1d")
-	)
-	(polyline
-		(pts
-			(xy 207.01 119.38) (xy 207.01 163.83)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "39364618-f1a7-46cc-9025-4d7cd818bf8b")
 	)
 	(wire
 		(pts
@@ -2248,16 +2289,6 @@
 			(type default)
 		)
 		(uuid "61a47103-21d5-45c3-bff2-d5ee22f7a68a")
-	)
-	(polyline
-		(pts
-			(xy 106.045 80.01) (xy 161.29 80.01)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "64940e92-7735-42bc-b0ae-1daf9ced6e3f")
 	)
 	(wire
 		(pts
@@ -2459,16 +2490,6 @@
 		)
 		(uuid "96bc5da7-27c8-4ed5-97ba-356370b1e9d1")
 	)
-	(polyline
-		(pts
-			(xy 41.275 182.245) (xy 41.275 109.855)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "9f6be1e7-9cce-47de-8b53-6b0a6dbc2329")
-	)
 	(wire
 		(pts
 			(xy 216.535 90.17) (xy 220.345 90.17)
@@ -2478,26 +2499,6 @@
 			(type default)
 		)
 		(uuid "a2af506d-3633-4eea-8447-996fb5f183ce")
-	)
-	(polyline
-		(pts
-			(xy 174.625 182.245) (xy 41.275 182.245)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "a86facc7-f1bb-49cd-b893-c986391046d0")
-	)
-	(polyline
-		(pts
-			(xy 174.625 163.83) (xy 174.625 182.245)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "ad41ef44-24fd-4c0c-8ce2-f9f32fd16766")
 	)
 	(wire
 		(pts
@@ -2548,16 +2549,6 @@
 			(type default)
 		)
 		(uuid "b8b074a3-24c5-4207-8c0d-fc50ff09d08a")
-	)
-	(polyline
-		(pts
-			(xy 106.045 80.01) (xy 106.045 109.855)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "bbcc705b-9887-4964-8e00-88b68ee37505")
 	)
 	(wire
 		(pts
@@ -2709,16 +2700,6 @@
 		)
 		(uuid "e704820a-717d-4734-a63c-8d86fcbf3cdd")
 	)
-	(polyline
-		(pts
-			(xy 41.275 109.855) (xy 106.045 109.855)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "e92af1f6-4fe3-4953-8bb9-c3e5367de8f7")
-	)
 	(wire
 		(pts
 			(xy 184.15 74.93) (xy 184.15 69.85)
@@ -2759,82 +2740,8 @@
 		)
 		(uuid "fbb62c8f-2120-49b1-ac26-94c62270234f")
 	)
-	(text "U9 HN1L02FU transistor array"
-		(exclude_from_sim no)
-		(at 46.355 102.235 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-			(href "https://github.com/nataliethenerd/CGB_ReverseEngineer/blob/main/datasheets/HN1L02FU.PDF")
-		)
-		(uuid "09e898a3-22fc-4f19-88b3-f1fc6148bff5")
-	)
-	(text "D1 Zener diode"
-		(exclude_from_sim no)
-		(at 46.355 95.885 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-			(href "https://github.com/nataliethenerd/CGB_ReverseEngineer/blob/main/datasheets/RD120S.PDF")
-		)
-		(uuid "53a70cd1-6a93-419a-8937-9e478b7a3145")
-	)
-	(text "Q1 PNP transistor"
-		(exclude_from_sim no)
-		(at 46.355 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-			(href "https://github.com/nataliethenerd/CGB_ReverseEngineer/blob/main/datasheets/2SA1576A.pdf")
-		)
-		(uuid "5552848a-e480-4e5c-a975-1833ed7ab9a3")
-	)
-	(text "Original screen circuitry"
-		(exclude_from_sim no)
-		(at 106.68 78.105 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "63494d17-3ac9-4fe6-bdf4-5bdbe830151c")
-	)
-	(text "NOTES:"
-		(exclude_from_sim no)
-		(at 45.72 92.71 0)
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "b7d31b15-5427-4e1b-acfa-4a9786e09bea")
-	)
-	(text "U10 UMZ2N dual transistors"
-		(exclude_from_sim no)
-		(at 46.355 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-			(href "https://github.com/nataliethenerd/CGB_ReverseEngineer/blob/main/datasheets/UMZ2N.PDF")
-		)
-		(uuid "c625ece0-14a8-43f8-99f1-e1fc8e80520f")
-	)
 	(label "V9"
 		(at 217.805 29.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2845,7 +2752,6 @@
 	)
 	(label "V2"
 		(at 217.805 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2856,7 +2762,6 @@
 	)
 	(label "V6"
 		(at 217.805 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2867,7 +2772,6 @@
 	)
 	(label "Up"
 		(at 55.88 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2878,7 +2782,6 @@
 	)
 	(label "V7"
 		(at 217.805 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2889,7 +2792,6 @@
 	)
 	(label "V8"
 		(at 217.805 31.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2900,7 +2802,6 @@
 	)
 	(label "V5"
 		(at 217.805 39.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2911,7 +2812,6 @@
 	)
 	(label "V1"
 		(at 217.805 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2922,7 +2822,6 @@
 	)
 	(label "Down"
 		(at 55.88 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2933,7 +2832,6 @@
 	)
 	(label "V0"
 		(at 217.805 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2944,7 +2842,6 @@
 	)
 	(label "Mid"
 		(at 55.88 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2955,7 +2852,6 @@
 	)
 	(label "V4"
 		(at 217.805 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2966,7 +2862,6 @@
 	)
 	(label "V3"
 		(at 217.805 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2978,7 +2873,6 @@
 	(hierarchical_label "PS"
 		(shape bidirectional)
 		(at 216.535 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2990,7 +2884,6 @@
 	(hierarchical_label "LDG2"
 		(shape bidirectional)
 		(at 216.535 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3002,7 +2895,6 @@
 	(hierarchical_label "LDB4"
 		(shape bidirectional)
 		(at 216.535 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3014,7 +2906,6 @@
 	(hierarchical_label "LDG1"
 		(shape bidirectional)
 		(at 216.535 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3026,7 +2917,6 @@
 	(hierarchical_label "LDB0"
 		(shape bidirectional)
 		(at 216.535 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3038,7 +2928,6 @@
 	(hierarchical_label "DCK"
 		(shape bidirectional)
 		(at 216.535 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3050,7 +2939,6 @@
 	(hierarchical_label "LDG4"
 		(shape bidirectional)
 		(at 216.535 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3062,7 +2950,6 @@
 	(hierarchical_label "LDR0"
 		(shape bidirectional)
 		(at 216.535 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3074,7 +2961,6 @@
 	(hierarchical_label "LDB2"
 		(shape bidirectional)
 		(at 216.535 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3086,7 +2972,6 @@
 	(hierarchical_label "LP"
 		(shape bidirectional)
 		(at 216.535 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3098,7 +2983,6 @@
 	(hierarchical_label "LDG5"
 		(shape bidirectional)
 		(at 216.535 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3110,7 +2994,6 @@
 	(hierarchical_label "CLS"
 		(shape bidirectional)
 		(at 215.9 135.89 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3122,7 +3005,6 @@
 	(hierarchical_label "LDB3"
 		(shape bidirectional)
 		(at 216.535 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3134,7 +3016,6 @@
 	(hierarchical_label "LDB5"
 		(shape bidirectional)
 		(at 216.535 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3146,7 +3027,6 @@
 	(hierarchical_label "LDR2"
 		(shape bidirectional)
 		(at 216.535 113.03 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3158,7 +3038,6 @@
 	(hierarchical_label "LDR4"
 		(shape bidirectional)
 		(at 216.535 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3170,7 +3049,6 @@
 	(hierarchical_label "LDG3"
 		(shape bidirectional)
 		(at 216.535 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3182,7 +3060,6 @@
 	(hierarchical_label "LDG0"
 		(shape bidirectional)
 		(at 216.535 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3194,7 +3071,6 @@
 	(hierarchical_label "LDB1"
 		(shape bidirectional)
 		(at 216.535 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3206,7 +3082,6 @@
 	(hierarchical_label "MOD"
 		(shape bidirectional)
 		(at 215.9 144.78 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3218,7 +3093,6 @@
 	(hierarchical_label "SPL"
 		(shape bidirectional)
 		(at 216.535 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3230,7 +3104,6 @@
 	(hierarchical_label "LDR3"
 		(shape bidirectional)
 		(at 216.535 110.49 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3242,7 +3115,6 @@
 	(hierarchical_label "LDR5"
 		(shape bidirectional)
 		(at 216.535 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3254,7 +3126,6 @@
 	(hierarchical_label "LDR1"
 		(shape bidirectional)
 		(at 216.535 115.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3266,7 +3137,6 @@
 	(hierarchical_label "SPS"
 		(shape bidirectional)
 		(at 215.9 138.43 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3364,7 +3234,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "Thumbwheel Toggle Switch"
 			(at 82.042 50.8579 0)
 			(effects
 				(font
@@ -3431,7 +3301,7 @@
 		(dnp no)
 		(uuid "310d121d-3829-4390-895c-d428fb12100c")
 		(property "Reference" "C48"
-			(at 68.834 47.244 90)
+			(at 67.691 47.244 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3439,7 +3309,7 @@
 			)
 		)
 		(property "Value" "27pF"
-			(at 68.072 49.276 90)
+			(at 67.818 49.276 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3573,7 +3443,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "FPC 50 Pin 0.5 Pitch (top contacts)"
 			(at 220.345 151.13 0)
 			(effects
 				(font
@@ -3978,7 +3848,7 @@
 		(dnp no)
 		(uuid "9c27fb25-1ccb-46e2-af69-a67b4b37cd61")
 		(property "Reference" "C49"
-			(at 69.088 52.578 90)
+			(at 66.802 52.451 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3986,7 +3856,7 @@
 			)
 		)
 		(property "Value" "27pF"
-			(at 68.072 54.356 90)
+			(at 67.183 54.229 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4106,7 +3976,7 @@
 		(at 215.9 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ea5be0ec-ec46-4780-b88e-aed0d5b042bc")
